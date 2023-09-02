@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>3 - Funções e eventos</title>
+    <script src="eventos.js"></script>
+    </head>
+    <body onload="carregar()">
+        <h1>Eventos</h1>
+        <form>
+            <label for="change">onchange</label>
+            <input type="text" id="change" onchange="mudar(this)">
+            <br><br>
+            
+            <label for="change">oninput</label>
+            <input type="text" id="input" oninput="mudar(this)">
+
+            <p id="copy"></p>
+            <br><br>
+
+            <button type="button" onclick="clicar()">onclick</button>
+        </form>
+    </body>
+</html>
