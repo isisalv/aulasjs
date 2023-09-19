@@ -8,3 +8,17 @@ function aprovado(nota_prova, nota_recuperacao) {
     }
     return false;
 }
+
+function clique() {
+    let n1 = $('#n1').val();
+    let n2 = $('#n2').val();
+
+    if (aprovado(n1,n2)) {
+        alert("Foi aprovado!");
+    }
+    else {
+        alert("Foi reprovado...");
+    }
+}
+
+// <button type="button" onclick="clique()">Clica aqui</button>
